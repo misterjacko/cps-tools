@@ -1,5 +1,7 @@
-# cps-extras
-Some one off scripts to pull CPS dtata
+# cps-tools #
+
+## Some one-off scripts to pull CPS data ##
+
 
 CPS has a number of public APIs that are documented at [api.cps.edu](api.cps.edu).
 
@@ -8,11 +10,15 @@ Contained in this repo are a number of scripts for calling them and processing t
 
 The scripts are meant to value readability over performance as to allow easier modification for whatever your personal use-case may be. 
 
+---
+
 ## Requirements and Dependencies ##
 
 - Python
   - I am using `3.9` but im sure you will be okay with something earlier or later.
 - Pip
+
+---
 
 ## Virtual Environments ##
 
@@ -31,7 +37,6 @@ pip install -r requirements.txt
 ```
 
 ---
-
 
 ## Contents of scripts ##
 
