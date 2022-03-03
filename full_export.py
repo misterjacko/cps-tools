@@ -20,18 +20,18 @@ def export_data(apis, save_files):
             save_as_csv(api_tag, response)       
 
 apis = {
-    "district_weekly_actionable21": "https://api.cps.edu/health/cps/District2021WeeklyCovidActionable",
+    # "district_weekly_actionable21": "https://api.cps.edu/health/cps/District2021WeeklyCovidActionable",
     "district_daily_actionable21": "https://api.cps.edu/health/cps/District2021DailyCovidActionable",
-    "district_no_admit": "https://api.cps.edu/health/cps/DistrictNoAdmittanceSummary",
-    "School_no_admit": "https://api.cps.edu/health/cps/SchoolNoAdmittanceSummary",
-    "school_weekly_actionable": "https://api.cps.edu/health/cps/SchoolWeeklyCovidActionable",
-    "district_weekly_actionable": "https://api.cps.edu/health/cps/DistrictWeeklyCovidActionable",
-    "district_weekly_testing": "https://api.cps.edu/health/cps/District2021WeeklyCOVIDTesting",
-    "district_daily_testing": "https://api.cps.edu/health/cps/District2021DailyCOVIDTesting",
-    "school_daily_actionable": "https://api.cps.edu/health/cps/School2021DailyCovidActionable",
-    "school_daily_surveillance": "https://api.cps.edu/health/cps/SchoolDailyCOVIDSurveillance",
-    "network_daily_surveillance": "https://api.cps.edu/health/cps/NetworkDailyCOVIDSurveillance",
-    "district_daily_surveillance": "https://api.cps.edu/health/cps/DistrictDailyCOVIDSurveillance",
+    # "district_no_admit": "https://api.cps.edu/health/cps/DistrictNoAdmittanceSummary",
+    # "School_no_admit": "https://api.cps.edu/health/cps/SchoolNoAdmittanceSummary",
+    # "school_weekly_actionable": "https://api.cps.edu/health/cps/SchoolWeeklyCovidActionable",
+    # "district_weekly_actionable": "https://api.cps.edu/health/cps/DistrictWeeklyCovidActionable",
+    # "district_weekly_testing": "https://api.cps.edu/health/cps/District2021WeeklyCOVIDTesting",
+    # "district_daily_testing": "https://api.cps.edu/health/cps/District2021DailyCOVIDTesting",
+    # "school_daily_actionable": "https://api.cps.edu/health/cps/School2021DailyCovidActionable",
+    # "school_daily_surveillance": "https://api.cps.edu/health/cps/SchoolDailyCOVIDSurveillance",
+    # "network_daily_surveillance": "https://api.cps.edu/health/cps/NetworkDailyCOVIDSurveillance",
+    # "district_daily_surveillance": "https://api.cps.edu/health/cps/DistrictDailyCOVIDSurveillance",
 }
 
 if __name__ == "__main__":
